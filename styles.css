@@ -1,0 +1,88 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a2c2e8, #f3f4f6);
+    margin: 0;
+}
+
+/* Container Styles */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+
+/* Input and Button Styles */
+input, button {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+    line-height: 1.5; /* Aligns text within input fields and button */
+}
+
+input {
+    background-color: #f9f9f9;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Output Styles */
+.output {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    word-wrap: break-word;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
